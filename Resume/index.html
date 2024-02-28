@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Anees Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="container">
+    <header>
+      <h1 id="name" contenteditable="true">Midde Mohammad Anees</h1>
+      <p id="contactInfo" contenteditable="true">Nandyal, A.P | +91 7075186108 | <a href="mailto:middemohammadanees@gmail.com" contenteditable="true">middemohammadanees@gmail.com</a> | <a href="https://www.linkedin.com/in/middemohammadanees/" contenteditable="true">LinkedIn</a></p>
+      <h2 id="edu">EDUCATION</h2>
+    </header>
+    
+    <section id="education" contenteditable="true">
+      
+      <ul>
+        <li>
+          <strong>Rajeev Gandhi Memorial College of Engineering & Technology, Nandyal</strong>
+          <p>Bachelor’s of Technology, Computer Science Engineering</p>
+        </li>
+        <li>
+          <strong>Narayana Junior College, Nandyal</strong>
+          <p>Intermediate, MPC</p>
+        </li>
+        <li>
+          <strong>Good Shepheard English Medium School, Nandyal</strong>
+          <p>SSC-Secondary School Certificate</p>
+        </li>
+      </ul>
+      <button class="add-button" onclick="addDetails('education')">Add More</button>
+    </section>
+   
+    <section id="projects" contenteditable="true">
+      <h2 id="edu1">PROJECTS</h2>
+      <ul>
+        <li contenteditable="true">
+          <strong contenteditable="true" >Billing Software</strong>
+          <p>I developed a billing software with Python and Tkinter, featuring a user-friendly interface for customer details, item selection, and invoice generation. It includes functions for adding items, calculating totals, and applying discounts, ensuring a reliable solution through extensive testing and debugging. This project refined my skills in Python programming, GUI development, and software engineering principles.</p>
+          <a href="https://github.com/MiddeMohammadAnees/BillingSoftware" target="_blank" contenteditable="true"> BillingSoftware Github Code</a>
+        </li>
+        <li contenteditable="true" >
+          <strong contenteditable="true">ECommerce Website</strong>
+          <p>I've crafted a responsive e-commerce platform using HTML, CSS,JavaScript and Bootstrap, focusing on intuitive design and seamless navigation. Leveraging Bootstrap's components, I ensured compatibility across devices while implementing essential features like product listings and secure checkout processes. This project demonstrates my expertise in front-end development and user-centric design.</p>
+          <a href="https://kushi-shopping.netlify.app/" target="_blank">Live Site</a>
+        </li>
+      </ul>
+      <button class="add-button" onclick="addDetails('projects')">Add More</button>
+    </section>
+    
+    <section id="skills" contenteditable="true">
+      <h2 id="edu1">SKILLS & INTERESTS</h2>
+      <ul>
+        <li contenteditable="true"><strong>Programming Skills:</strong> Java, Python, HTML, CSS, JavaScript, SQL.</li>
+        <li contenteditable="true"><strong>Other Skills:</strong> Problem Solver, Adaptability, Time Management.</li>
+        <li contenteditable="true"><strong>Hobbies:</strong> Listening to music, playing cricket.</li>
+        <li contenteditable="true"><strong>Languages Known:</strong> English, Hindi, Telugu</li>
+      </ul>
+      <button class="add-button" onclick="addDetails('skills')">Add More</button>
+    </section>
+    
+    <section id="certificates" contenteditable="true">
+      <h2 id="edu1">CERTIFICATES</h2>
+      <ul>
+        <li id="ce" contenteditable="true">Basics of Python - Infosys</li>
+        <li id="ce1" contenteditable="true">Cybersecurity - CISCO</li>
+      </ul>
+      <button class="add-button" onclick="addDetails('certificates')">Add More</button>
+    </section>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
